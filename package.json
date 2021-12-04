@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+		"commit": "git init && git status && git add . && git commit -m $MSG && git push"
   },
   "author": "",
   "license": "ISC",
